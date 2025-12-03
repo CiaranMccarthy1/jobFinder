@@ -144,7 +144,7 @@ const App = () => {
                 style={{ border: 0 }}
                 loading="lazy"
                 allowFullScreen
-                src={`https://maps.google.com/maps/search/homeless+shelters/@${location.lat},${location.lng}&t=&z=11&ie=UTF8&iwloc=&output=embed`}
+                src={`https://google.com/maps/search/homeless+shelters/@${location.lat},${location.lng}&t=&z=11&ie=UTF8&iwloc=&output=embed`}
               ></iframe>
               
               <div className="p-3 flex items-center justify-between text-sm text-slate-500">
