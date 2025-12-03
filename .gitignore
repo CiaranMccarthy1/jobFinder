@@ -1,0 +1,24 @@
+# Vite build output
+dist/
+dist-ssr/
+*.local
+
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor / system
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
